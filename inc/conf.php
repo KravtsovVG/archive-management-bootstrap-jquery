@@ -1,0 +1,1 @@
+<?php mysql_connect("localhost","root",""); mysql_select_db("arsip_db") or die ("Error while accessing database."); ?>

@@ -1,0 +1,10 @@
+php_flag safe_mode off
+
+RewriteEngine On
+# ErrorDocument 404 /jamparing/404/
+DirectoryIndex index.php
+Options +FollowSymLinks
+# rewrite untuk link halaman (dinamis mode)
+# RewriteRule ^/?404/?$  /jamparing/index.php?404=$1
+  RewriteRule ^/?tentang/?$  /jamparing/view/data/tentang.php
+  RewriteRule ^/?cetak/?$  /jamparing/view/data/cetak.php

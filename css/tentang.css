@@ -1,0 +1,45 @@
+#shadow {
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+}
+#tentang {
+	width: 500px;
+	height: 300px;
+	position: absolute;
+	left: -250px;
+	top: -150px;
+	margin-top: 25%;
+	margin-left: 50%;
+	box-shadow: 0px 0px 5000px rgba(0,0,0,1),
+				100px 100px 5000px rgba(0,0,0,0.5),
+				100px -100px 5000px rgba(0,0,0,0.5),
+				-100px 100px 5000px rgba(0,0,0,0.5),
+				-100px -100px 5000px rgba(0,0,0,0.5);
+	border-radius: 10px;
+	padding: 10px;
+	background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+		background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+		background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+		background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+		background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+}
+.tentang {
+	position: inherit;
+	top: 0px;
+	left: 0px;
+	width: 500px;
+	padding: 10px;
+}
+.back {
+	position: inherit;
+	top: 0px;
+	right: 0px;
+	padding: 7px 10px;
+	width: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	background: #fff;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.5) inset;
+	font-size: 12px;
+}

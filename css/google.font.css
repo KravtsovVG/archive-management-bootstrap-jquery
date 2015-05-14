@@ -1,0 +1,7 @@
+*{
+	 font :100%/1.4 'lucida sans unicode', 'lucida grande', 'Trebuchet MS', verdana, arial, helvetica, helve, sans-serif;   
+	-webkit-font-smoothing: antialiased;
+    	-moz-font-smoothing: antialiased;
+    	-o-font-smoothing: antialiased;
+    	font-smoothing: antialiased;
+}
